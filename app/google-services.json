@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "277669552352",
+    "project_id": "scorpion-f0d3e",
+    "storage_bucket": "scorpion-f0d3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277669552352:android:74531579c2e542c13ff085",
+        "android_client_info": {
+          "package_name": "com.example.wessalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277669552352-qi02pqp2r4amempg2fttv1h6libholte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzTi2nCCvZRgXj2-WyXU0sMGSKwjBPNEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277669552352-qi02pqp2r4amempg2fttv1h6libholte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

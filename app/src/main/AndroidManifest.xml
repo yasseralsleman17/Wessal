@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wessalapp">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WessalApp"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".StudentProfile"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterInAcctivity"
+            android:exported="true" />
+        <activity
+            android:name=".AcctivityPage"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterInClub"
+            android:exported="true" />
+        <activity
+            android:name=".ClubRequests"
+            android:exported="true" />
+        <activity
+            android:name=".CreateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChooseClub"
+            android:exported="true" />
+        <activity
+            android:name=".ClubPage"
+            android:exported="true" />
+        <activity android:name=".CreateClub" />
+        <activity android:name=".Register" />
+        <activity android:name=".FacultymemberHomePage" />
+        <activity android:name=".StudentHomePage" />
+        <activity android:name=".LogIn" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
